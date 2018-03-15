@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var fs = require('fs');
 var app = express();
-var stringIfyFile = "";
+var stringifyFile = "";
 
 app.use(bodyParser.json());
 app.get('/getNote', (req, res) => {
